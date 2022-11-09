@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+:root{
+    --color1: #3E0006;
+    --color1_1: #3e070c;
+    --color2: #ffffff;
+    --color3: #108d03;
+    --color3_1: #0e6205;
+    --color4: #C10010;
+}
+
+@media screen and (max-width: 992px) {   /* Tablet*/
+    
+    
+/* Form */
+
+#form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#form-container a{
+    color: var(--color2);
+  
+}
+
+#form-container a:hover{
+    color: var(--color2);
+    background-color: var(--color4);
+}
+
+div.form{
+    margin: 0 0 50px 0;
+}
+
+div.box-form{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: 500px;
+}
+
+div.especialistas{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin: auto;
+}
+
+.img img{
+   padding: 25px 0;
+    width: 100%;
+}
+
+
+/* CTA */
+
+
+
+/* Sobre */
+
+div#sobre-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div#items{
+    display: inline-grid;
+    grid-template-columns: auto auto ;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+div#items p {
+    font-size: 1.3em;
+    max-width: 200px;
+    display: inline-block;
+}
+div.box-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Final */
+
+#final-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#divisoria{
+    background-color: var(--color2);
+    height: 3px;
+    width: 80%;
+    margin: 40px 0;
+}
+
+}
+
+@media screen and  (max-width:786px){ 
+
+
+    /* Header */
+
+    #showcase h1{
+        font-size: 20px;
+    }
+
+    #showcase div.img-design img{ 
+        max-width: 40px;
+    }
+
+
+    .btn{
+        font-size: 18px;
+        background-color: var(--color1);
+    }
+
+    /* NavBar */
+    #navbar-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #navbar-container p{
+        display: none;
+    }
+
+    /* Form */
+    
+    div.form h2{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    /* CTA */
+
+    #cta{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #cta h2, #cta > div > p{
+        display: none;
+    }
+
+    .mobil{
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    #cta .mobil h3{
+        padding: 30px 0;
+        font-size: 25px;
+    }
+
+    #cta .mobil p{
+        font-size: 15px;
+    }
+
+
+    /* Sobre */
+
+    #sobre-container > div > h2{
+        font-size: 20px;
+    }   
+
+    #sobre-container > div > p {
+        display: none;
+    }
+
+
+    div#items p {
+        font-size: 13px;
+    }
+   
+    .tb{
+        display: none;
+    }
+    
+    .box >  .mobil{
+        text-align: center;
+        padding: 30px;
+        display: block;
+        font-size: 25px;
+    }
+
+    ul li{
+        max-width: 200px;
+    }
+    div#items-tb{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    div.box-icon-tb li{
+        font-size: 18px;
+    }
+    /* Final */
+
+    #container1{
+        padding-top: 50px;
+    } 
+     
+    #container1 #logo{
+        width: 300px;
+    }
+
+    #container2 .icon1 p{
+        font-size: 12px;
+    }
+
+
+    /* Footer */
+
+    footer p{
+        font-size: 9px;
+    }
+}

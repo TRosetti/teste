@@ -71,7 +71,7 @@ h1, h2, h3 , p, a{
 
 #navbar{
     background-color: var(--color2);
-    background-image: url(../../components/fundo-textura.png);
+    background-image: url(../components/fundo-textura.png);
     width: 100%;
 }
 
@@ -99,7 +99,7 @@ h1, h2, h3 , p, a{
 /* header */
 
 #showcase{
-    background: url(../../components/img-header.png) no-repeat center center/cover ;
+    background: url(../components/img-header.png) no-repeat center center/cover ;
 }
 
 #showcase-container h1{
@@ -187,7 +187,7 @@ position: absolute;
 
 #form {
     background-color: var(--color2);
-    background-image: url(../../components/fundo-textura.png);
+    background-image: url(../components/fundo-textura.png);
     
 }
 
@@ -370,7 +370,7 @@ section#cta{
 
 section#sobre{
     background-color: var(--color2);
-    background-image: url(../../components/fundo-textura.png);
+    background-image: url(../components/fundo-textura.png);
 }
 
 div#sobre-container > div{
